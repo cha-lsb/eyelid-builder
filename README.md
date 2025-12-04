@@ -8,14 +8,15 @@ How To
 --------
 To launch the tool, run this inside maya:
 
-.. code-block:: python
-	import sys
-	path = "path/to/eyelid-builder/src"
-	if path not in sys.path:
-		sys.path.insert(0, path)
-	import eyelid_builder.ui as eyelid_ui
-	win = eyelid_ui.EyelidGui()
-	win.show()
+```
+import sys
+path = "path/to/eyelid-builder/src"
+if path not in sys.path:
+	sys.path.insert(0, path)
+import eyelid_builder.ui as eyelid_ui
+win = eyelid_ui.EyelidGui()
+win.show()
+```
 
 Features
 --------
