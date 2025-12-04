@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel", "build", "twine"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eyelid-builder"
+version = "1.0.1"
+authors = [
+    {name = "Charlotte Lerat", email = "charlotte.lerat1991@gmail.com"},
+
+]
+description = "Maya tool used to build an eyelid rig based on joints and crves"
+dependencies = []  # add any dependency required for this project to work
+readme = "README.rst"
+requires-python = ">=3.9"
+classifiers = [
+    "Private :: Do Not Upload", # prevent from publishing the package by mistake on PyPI
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]  # this is only for setuptool, which is the fallback default solution in case build-system is not found
+where = ["src"]
