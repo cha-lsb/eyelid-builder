@@ -8,7 +8,7 @@ How To
 --------
 To launch the tool, run this inside maya:
 
-```
+```python
 import sys
 path = "path/to/eyelid-builder/src"
 if path not in sys.path:
