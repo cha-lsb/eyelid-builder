@@ -2,6 +2,7 @@ eyelid-builder
 ==============
 
 Maya tool used to build an eyelid rig based on joints and crves
+Thank you Marco Giordano! (https://youtu.be/-rtys3vFmso?si=us917rTrBtz94orZ)
 
 How To
 --------
